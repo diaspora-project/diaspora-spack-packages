@@ -1,6 +1,6 @@
 # Diaspora Spack Packages
 
-To allow [Spack]() to build Diaspora packages, use the following.
+To allow [Spack](https://spack.io) to build Diaspora packages, use the following.
 
 ```
 git clone https://github.com/diaspora-project/diaspora-spack-packages.git
