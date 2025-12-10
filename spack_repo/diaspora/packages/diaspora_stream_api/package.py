@@ -44,6 +44,7 @@ class DiasporaStreamApi(CMakePackage):
     depends_on("nlohmann-json")
     depends_on("nlohmann-json-schema-validator")
     depends_on("spdlog")
+    depends_on("mochi-thallium", when="+tests")
 
     with when("+tests"):
         depends_on("catch2@3.6.0:")
