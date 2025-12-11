@@ -27,12 +27,13 @@ class DiasporaStreamOctopus(CMakePackage):
     """Kafka-based backend for the Diaspora Streaming API."""
 
     homepage = "https://github.com/mdiaspora-project/diaspora-stream-octopus"
-    url = "https://github.com/diaspora-project/diaspora-stream-octopus.git"
+    url = "https://github.com/diaspora-project/diaspora-stream-octopus/archive/refs/tags/v0.1.0.tar.gz"
     git = "https://github.com/diaspora-project/diaspora-stream-octopus.git"
 
     maintainers("mdorier")
 
     version("main", branch="main")
+    version("0.1.0", sha256="a87d82f23ad3d5d68577ee0d243bfbd0f82d4089aa0a19e42b7cd6579a60ca13")
 
     depends_on("c", type="build")
     depends_on("cxx", type="build")
