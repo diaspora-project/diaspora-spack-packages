@@ -42,6 +42,7 @@ class DiasporaStreamOctopus(CMakePackage):
     depends_on("cmake@3.21:", type=("build"))
     depends_on("pkg-config", type=("build"))
     depends_on("diaspora-stream-api@0.5.0:")
+    depends_on("diaspora-stream-api@0.5.1:", when="@0.1.1:")
     depends_on("librdkafka")
     depends_on("uuid")
 
