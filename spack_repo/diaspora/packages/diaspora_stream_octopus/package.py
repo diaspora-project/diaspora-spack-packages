@@ -33,6 +33,7 @@ class DiasporaStreamOctopus(CMakePackage):
     maintainers("mdorier")
 
     version("main", branch="main")
+    version("0.1.2", sha256="3a10842f9b49795a6e8b1c0e789fc16b7ddf3da739b174fed49446f802505047")
     version("0.1.1", sha256="660b4dc91e3c3a176c4cca2776a5e8ec2b30fe6a7c6a4fca1657713b5b8c8a7e")
     version("0.1.0", sha256="a87d82f23ad3d5d68577ee0d243bfbd0f82d4089aa0a19e42b7cd6579a60ca13")
 
