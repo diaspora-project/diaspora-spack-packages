@@ -19,6 +19,7 @@ class DiasporaStreamApi(CMakePackage):
 
     version("main", branch="main")
     version("develop", branch="main")
+    version("0.5.4", sha256="88d16bdd211ea80fe4257abb048945d2b3ed669fc3484a49b15a99ad3632cc81")
     version("0.5.3", sha256="fb68bbf7bf38b19b0c7a8465eca5802b3ce5f9ed4cb9561601e08694a648b842")
     version("0.5.2", sha256="3756c7c4c6a83038b8ca0ba59829e69b6065060b4727bde8286a3877e9925a9d")
     version("0.5.1", sha256="34c3e1b10b5ff9ea030ffc92f0ef03013be5965a27b68b921d8fa83e827e28ac")
